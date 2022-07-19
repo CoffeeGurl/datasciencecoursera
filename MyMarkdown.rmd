@@ -1,8 +1,7 @@
 ---
-title: "HelloWorld"
-author: "Coffee Gurl"
-date: "2022-07-19"
+title: "Testing out R Markdown"
 output: html_document
+date: "2022-07-19"
 ---
 
 ```{r setup, include=FALSE}
@@ -10,8 +9,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-
-## This is a markdown file - testing things out here
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -30,3 +27,16 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+print(Hello World)
+```
+
+
+Testing out the page 
+# Header 1
+## Header 2
+**bold**
+*italics*
+(link is here)[www.google.com]
+
